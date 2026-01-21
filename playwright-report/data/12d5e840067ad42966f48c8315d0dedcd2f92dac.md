@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Junkyard Tracker Vehicle Management System" [ref=e5] [cursor=pointer]:
+        - /url: /vehicles
+        - img [ref=e7]
+        - generic [ref=e9]:
+          - heading "Junkyard Tracker" [level=1] [ref=e10]
+          - paragraph [ref=e11]: Vehicle Management System
+      - navigation [ref=e12]:
+        - link "Vehicles" [ref=e13] [cursor=pointer]:
+          - /url: /vehicles
+        - link "Registration Log" [ref=e14] [cursor=pointer]:
+          - /url: /registration-log
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "View Vehicle" [level=1] [ref=e20]
+        - paragraph [ref=e21]: Bike To Delete
+      - generic [ref=e22]:
+        - button "Edit Vehicle" [ref=e23] [cursor=pointer]
+        - button "Delete" [ref=e24] [cursor=pointer]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Vehicle Type
+        - generic [ref=e29]: motorcycle
+      - generic [ref=e30]:
+        - generic [ref=e31]: Nickname
+        - generic [ref=e32]: Bike To Delete
+      - generic [ref=e33]:
+        - generic [ref=e34]: Mileage
+        - generic [ref=e35]: 5,000 miles
+      - generic [ref=e36]:
+        - generic [ref=e37]: Wheels
+        - generic [ref=e38]: 2 wheels
+      - generic [ref=e39]:
+        - generic [ref=e40]: Seat Status
+        - generic [ref=e42]: Works
+      - generic [ref=e43]:
+        - generic [ref=e44]: Engine Status
+        - generic [ref=e46]: Works
+      - generic [ref=e47]:
+        - generic [ref=e48]: Registration Status
+        - generic [ref=e49]:
+          - generic [ref=e50]: Registered
+          - paragraph [ref=e51]: MOTORCYCLE-QF3SN
+      - generic [ref=e52]:
+        - heading "System Information" [level=3] [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Created
+            - generic [ref=e57]: 1/21/2026, 12:46:20 AM
+          - generic [ref=e58]:
+            - generic [ref=e59]: Last Updated
+            - generic [ref=e60]: 1/21/2026, 12:46:20 AM
+          - generic [ref=e61]:
+            - generic [ref=e62]: Vehicle ID
+            - generic [ref=e63]: 260ebdc2-6434-4c1e-bb24-bf2d86702b1a
+    - button "← Back to Vehicles" [ref=e65] [cursor=pointer]
+    - dialog "Delete Vehicle" [ref=e66]:
+      - generic [active] [ref=e67]:
+        - heading "Delete Vehicle" [level=2] [ref=e68]
+        - paragraph [ref=e69]: Are you sure you want to delete "Bike To Delete"? This action cannot be undone.
+        - generic [ref=e70]:
+          - button "Cancel" [ref=e71] [cursor=pointer]
+          - button "Delete" [ref=e72] [cursor=pointer]
+  - alert [ref=e73]:
+    - paragraph [ref=e75]: Vehicle created successfully
+    - button "Dismiss" [ref=e76] [cursor=pointer]:
+      - img [ref=e77]
+  - button "Open Next.js Dev Tools" [ref=e85] [cursor=pointer]:
+    - img [ref=e86]
+  - alert [ref=e89]
+```
